@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_year_month"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#dddddd"
+        android:gravity="center" />
+    <com.android.lily.hotel.view.MonthView
+        android:id="@+id/monthDateView"
+        android:layout_width="fill_parent"
+        android:layout_height="240dp" />
+</LinearLayout>
